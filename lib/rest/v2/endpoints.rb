@@ -2,7 +2,7 @@ module Glassnode
   module RESTv2Endpoints
 
     #Tier: 3
-    def get_endpoints
+    def endpoints
       authenticated_get("metrics/endpoints")
     end
 

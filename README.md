@@ -38,7 +38,7 @@ client = Glassnode::RESTv1.new({
 })
 ```
 
-Then use it to submit queries, i.e. `client.sending_to_exchanges_count(a: 'btc')`
+Then use it to submit queries, i.e. `client.addresses_sending_to_exchanges_count(a: 'btc')`
 
 ### Contributing
 
