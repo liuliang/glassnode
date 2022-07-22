@@ -4,9 +4,8 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
   spec.name          = 'glassnode'
-  spec.version       = '0.0.3'
+  spec.version       = '0.0.4'
   spec.authors       = ['Glassnode']
-  spec.email         = ['liuliang0817@gmail.com']
   spec.summary       = %q{Glassnode API Wrapper}
   spec.description   = %q{Glassnode API ruby wrapper}
   spec.homepage      = 'https://github.com/liuliang/glassnode'

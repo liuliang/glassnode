@@ -7,7 +7,7 @@ module Glassnode
     #  c: ["USD"]
     #  i: ["24h"]
     def defi_total_value_locked(params={})
-      authenticated_get("metrics/defi/total_value_locked", params: params).body
+      authenticated_get("metrics/defi/total_value_locked", params: params)
     end
 
   end
